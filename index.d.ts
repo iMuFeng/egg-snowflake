@@ -4,11 +4,11 @@ interface Snowflake {
 }
 
 interface EggSnowflakeClientOption {
-  workerIdBitLength: number;
-  machineIdBitLength: number;
-  serialIdBitLength: number;
-  machineId: number;
-  startDate: string;
+  workerIdBitLength?: number;
+  machineIdBitLength?: number;
+  serialIdBitLength?: number;
+  machineId?: number;
+  startDate?: string;
 }
 
 interface EggSnowflakeOptions {
